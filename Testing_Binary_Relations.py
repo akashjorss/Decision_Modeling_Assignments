@@ -1,5 +1,5 @@
 """
-Authors: Gayaneh Verdayan and Akash Malhotra
+Authors: Gayane Vardanyan (gayane.vardanyan@student-cs.fr) and Akash Malhotra (akash.malhotra@student-cs.fr)
 For Github repo, visit: https://github.com/akashjorss/Decision_Modeling_Assignments
 """
 
