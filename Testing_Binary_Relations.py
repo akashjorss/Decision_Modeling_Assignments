@@ -1,3 +1,8 @@
+"""
+Authors: Gayaneh Verdayan and Akash Malhotra
+For Github repo, visit: https://github.com/akashjorss/Decision_Modeling_Assignments
+"""
+
 #All imports here
 import pandas as pd
 import numpy as np
@@ -274,5 +279,11 @@ def topological_sorting(matrix):
     else: 
         print("The topological sorting for the following relation would be: ")
         print(output_queue)
-        
+
+#Following should not be possible to do topological sorting
 topological_sorting(matrix)
+DAG = np.array([[0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0],
+                              [0, 1, 0, 0, 0, 0], [1, 1, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0] ])
+show_graph_with_labels(DAG)
+#Following should be possible to do topological sorting
+topological_sorting(DAG)
