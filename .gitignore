@@ -11,6 +11,7 @@
 # KDE directory preferences
 .directory
 
+*.1p
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
