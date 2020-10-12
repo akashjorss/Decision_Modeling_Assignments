@@ -1,6 +1,6 @@
 """
 Author: Akash Malhotra
-Github repo: 
+Github repo: https://github.com/akashjorss/Decision_Modeling_Assignments
 """
 
 import pandas as pd
